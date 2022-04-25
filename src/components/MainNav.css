@@ -3,7 +3,7 @@
 .about-header {
   background-image: url("../../public/images/WhiteBannerBlob.png");
   background-size: cover;
-  height: 75vh;
+  height: 80vh;
 }
 .flex-container {
   display: flex;
@@ -52,3 +52,6 @@
   font-size: 75px;
   font-family: "Righteous";
 }
+
+
+

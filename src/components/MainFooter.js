@@ -8,8 +8,8 @@ function MainFooter() {
     <div>
       <section className="footer-flex">
         <div>
-          <h1>Follow Me</h1>
-          <p>Learn about my work and experience.</p>
+          <h1 className="follow-me">Follow Me</h1>
+          <p className="learn-more">Learn about my work and experience.</p>
         </div>
         <div className="contact-icons">
           <a href="https://github.com/vjaxel34">

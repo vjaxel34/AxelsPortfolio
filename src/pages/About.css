@@ -2,8 +2,7 @@
 .about-author {
   display: flex;
   flex-direction: column;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding: 2rem;
   background-image: url("../../public/images/WhiteBannerBlobV3.png");
   background-size: cover;
   font-family: 'Roboto', sans-serif;
@@ -40,16 +39,182 @@
 @media (min-width: 1024px) and (max-width: 1279px) {
 }
 @media (min-width: 820px) and (max-width: 1023px) {
+  .about-author{
+    background-image: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    /* width: 100vh; */
+   }
+   .about-me{
+     font-size: 25px;
+     line-height: 3.6rem;
+   }
+   .author-skills{
+     font-size: 25px;
+     line-height: 3.6rem;
+   }
+   .work-statement{
+     display: flex;
+     flex-direction: column;
+   }
+   .work-experience{
+     flex-direction: column;
+   }
+   .work-image{
+     padding-left: 10rem;
+   }
 }
 @media (min-width: 768px) and (max-width: 819px) {
+  .about-author{
+    background-image: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    /* width: 100vh; */
+   }
+   .about-me{
+     font-size: 25px;
+     line-height: 3.6rem;
+   }
+   .author-skills{
+     font-size: 25px;
+     line-height: 3.6rem;
+   }
+   .work-statement{
+     display: flex;
+     flex-direction: column;
+   }
+   .work-experience{
+     flex-direction: column;
+   }
+   .work-image{
+     padding-left: 10rem;
+   }
 }
 @media (min-width: 540px) and (max-width: 767px) {
+  .about-author{
+    background-image: none;
+    padding-left: 2rem;
+    width: 100vh;
+   }
+   .about-me{
+     font-size: 20px;
+     line-height: 3.6rem;
+   }
+   .author-skills{
+     font-size: 20px;
+     line-height: 3.6rem;
+   }
+   .work-statement{
+     display: flex;
+     flex-direction: column;
+   }
+   .work-experience{
+     flex-direction: column;
+   }
+   .work-image{
+     padding-left: 5rem;
+   }
 }
 @media (min-width: 412px) and (max-width: 539px) {
+  .about-author{
+   background-image: none;
+   padding-left: 2rem;
+   padding-right: 2rem;
+   width: 100vh;
+  }
+  .about-me{
+    font-size: 25px;
+    line-height: 3.6rem;
+  }
+  .author-skills{
+    font-size: 25px;
+    line-height: 3.6rem;
+  }
+  .work-statement{
+    display: flex;
+    flex-direction: column;
+  }
+  .work-experience{
+    flex-direction: column;
+  }
+  .work-image{
+    padding-left: 10rem;
+  }
 }
 @media (min-width: 390px) and (max-width: 411px) {
+  .about-author{
+    background-image: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 110vh;
+   }
+   .about-me{
+     font-size: 25px;
+     line-height: 3.6rem;
+   }
+   .author-skills{
+     font-size: 25px;
+     line-height: 3.6rem;
+   }
+   .work-statement{
+     display: flex;
+     flex-direction: column;
+   }
+   .work-experience{
+     flex-direction: column;
+   }
+   .work-image{
+     padding-left: 8rem;
+   }
 }
 @media (min-width: 360px) and (max-width: 389px) {
+  .about-author{
+    background-image: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 110vh;
+   }
+   .about-me{
+     font-size: 25px;
+     line-height: 3.6rem;
+   }
+   .author-skills{
+     font-size: 25px;
+     line-height: 3.6rem;
+   }
+   .work-statement{
+     display: flex;
+     flex-direction: column;
+   }
+   .work-experience{
+     flex-direction: column;
+   }
+   .work-image{
+     padding-left: 8rem;
+   }
 }
 @media (min-width: 280px) and (max-width: 359px) {
+  .about-author{
+    background-image: none;
+    padding-left: 3rem;
+    width: 100vh;
+   }
+   .about-me{
+     font-size: 25px;
+     line-height: 3.6rem;
+   }
+   .author-skills{
+     font-size: 25px;
+     line-height: 3.6rem;
+   }
+   .work-statement{
+     display: flex;
+     flex-direction: column;
+   }
+   .work-experience{
+     flex-direction: column;
+   }
+   .work-image{
+     padding-left: 5rem;
+   }
 }
