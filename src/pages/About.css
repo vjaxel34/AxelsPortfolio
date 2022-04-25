@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+.about-author {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-image: url("../../public/images/WhiteBannerBlobV3.png");
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+.work-statement {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  line-height: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.work-experience{
+  display: flex;
+  flex-direction: row;
+}
+.about-me{
+  padding-top: 7rem;
+  font-size: 20px;
+}
+.author-skills{
+  font-size: 20px;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* border-bottom: solid; */
+}
+@media (min-width: 1300px) and (max-width: 3000px) {
+}
+@media (min-width: 1280px) and (max-width: 1290px) {
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+}
+@media (min-width: 820px) and (max-width: 1023px) {
+}
+@media (min-width: 768px) and (max-width: 819px) {
+}
+@media (min-width: 540px) and (max-width: 767px) {
+}
+@media (min-width: 412px) and (max-width: 539px) {
+}
+@media (min-width: 390px) and (max-width: 411px) {
+}
+@media (min-width: 360px) and (max-width: 389px) {
+}
+@media (min-width: 280px) and (max-width: 359px) {
+}

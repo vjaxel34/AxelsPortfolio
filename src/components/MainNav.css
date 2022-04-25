@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+.about-header {
+  background-image: url("../../public/images/WhiteBannerBlob.png");
+  background-size: cover;
+  height: 75vh;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flex-info {
+  padding-left: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* gap: 60px; */
+}
+.flex-info img:hover {
+  -webkit-filter: drop-shadow(0 0 8px black);
+  filter: drop-shadow(0 0 8px black);
+  filter: drop-shadow(0 0 0 8px black);
+}
+.flex-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  background-color: rgba(31, 45, 231, 0.247);
+  font-family: "Righteous";
+  font-size: 30px;
+  width: 200px;
+  padding: 20px;
+  border-radius: 231px 197px 335px 39px / 50px 44px 44px 90px;
+}
+.link:hover {
+  border-radius: 100px 170px 300px 39px / 40px 34px 24px 70px;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(255, 255, 255),
+    0 0 5px rgb(4, 21, 255);
+  background-color: #5c04ff3f;
+  font-weight: 900;
+}
+.info-header {
+  color: black;
+  font-size: 75px;
+  font-family: "Righteous";
+}

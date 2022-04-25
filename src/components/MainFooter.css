@@ -1,0 +1,25 @@
+.footer-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding-left: 35rem;
+}
+.footer-flex h1{
+    padding-left: 4rem;
+}
+
+.contact-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    font-size: 45px;
+}
+.contact-icons a{
+    text-decoration: none;
+    padding-left: 1rem;
+}
+.icons{
+    color: blue;
+    border-radius: 5rem;
+}
