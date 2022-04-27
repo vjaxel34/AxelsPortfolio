@@ -20,8 +20,11 @@
     padding-left: 1rem;
 }
 .icons{
-    color: blue;
+    color: rgb(175, 136, 238);
     border-radius: 5rem;
+}
+.icons:hover{
+    transform: scale(1.1);
 }
 @media (min-width: 1300px) and (max-width: 3000px) {
 }
@@ -66,7 +69,7 @@
 @media (min-width: 540px) and (max-width: 767px) {
     .footer-flex{
         gap: 1rem;
-        padding-left: 20rem;
+        padding-left: 10rem;
     }
     .follow-me{
         display: none;

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 .about-header {
-  background-image: url("../../public/images/WhiteBannerBlob.png");
+  background-image: url("../../public/images/headerblob2.png");
   background-size: cover;
   height: 80vh;
 }
@@ -22,6 +22,7 @@
   -webkit-filter: drop-shadow(0 0 8px black);
   filter: drop-shadow(0 0 8px black);
   filter: drop-shadow(0 0 0 8px black);
+  transform: scale(1.1);
 }
 .flex-button {
   display: flex;
@@ -42,10 +43,11 @@
 }
 .link:hover {
   border-radius: 100px 170px 300px 39px / 40px 34px 24px 70px;
-  text-shadow: 1px 1px 2px black, 0 0 25px rgb(255, 255, 255),
+  text-shadow: 1px 1px 2px white, 0 0 25px rgb(255, 255, 255),
     0 0 5px rgb(4, 21, 255);
   background-color: #5c04ff3f;
   font-weight: 900;
+  transform: scale(1.1);
 }
 .info-header {
   color: black;
@@ -55,3 +57,40 @@
 
 
 
+@media (min-width: 1300px) and (max-width: 3000px) {
+}
+@media (min-width: 1280px) and (max-width: 1290px) {
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .info-header{
+    font-size: 3.6rem;
+  }
+}
+@media (min-width: 820px) and (max-width: 1023px) {
+   
+}
+@media (min-width: 768px) and (max-width: 819px) {
+    
+}
+@media (min-width: 540px) and (max-width: 767px) {
+  .info-header{
+    font-size: 2.5rem;
+  }
+  .axel-img{
+    width: 200px;
+  }
+}
+@media (min-width: 412px) and (max-width: 539px) {
+    
+}
+@media (min-width: 390px) and (max-width: 411px) {
+    
+}
+@media (min-width: 360px) and (max-width: 389px) {
+    .info-header{
+      font-size: 2.6rem;
+    }
+}
+@media (min-width: 280px) and (max-width: 359px) {
+    
+}

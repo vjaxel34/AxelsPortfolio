@@ -1,6 +1,6 @@
 import React from "react";
 // import { NavLink } from "react-router-dom";
-// import Projects from "./Projects";
+import MySkills from "../components/MySkills";
 import "./About.css";
 function About() {
   return (
@@ -65,7 +65,7 @@ function About() {
           </div>
         </div>
       </section>
-      {/* <Projects /> */}
+      <MySkills />
     </>
   );
 }
